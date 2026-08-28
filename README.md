@@ -45,7 +45,6 @@ I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, trans
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 ---
@@ -56,7 +55,7 @@ I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, trans
 An end-to-end fraud detection system on the PaySim dataset, combining a tuned **XGBoost** classifier with a **LangChain ReAct agent** (Gemini-backed) that investigates flagged transactions using three tools — user history, user profile, and automated case-report generation.
 - Improved recall from **0.18% → 81.4% at 90% precision** — a **450x** lift over the dataset's naive rule baseline
 - Engineered features including `dest_balance_untouched` to catch mule-account patterns
-- Served via **FastAPI**, demoed on **Streamlit**, containerized with **Docker**, deployed on **Render**
+- Served via **FastAPI**, demoed on **Streamlit**, containerized with **Docker**, deployed on **Streamlit Community Cloud**
 - `XGBoost` `LangChain` `Gemini` `FastAPI` `Streamlit` `Docker`
 
 #### 📖 [IS 456 RAG Assistant](https://github.com/MohamedYaseenK/is456-rag-assistant)
@@ -72,10 +71,6 @@ A real-time conversational voice agent running entirely on **CPU**, streaming au
 - Deliverable-focused: a working round-trip demo plus a stage-by-stage latency breakdown
 - `WebSockets` `VAD` `Speech-to-Text` `LLM` `Text-to-Speech`
 
-#### 🏥 [Medical Chatbot RAG](https://github.com/MohamedYaseenK/medical-chatbot-rag)
-A retrieval-augmented medical Q&A chatbot built on a **Flask** backend with **Pinecone** as the vector store.
-- `LangChain` `Flask` `Pinecone` `Sentence-Transformers`
-
 #### 🌊 Sea Surface Temperature Forecasting (Deep Learning)
 A **ConvLSTM2D**-based spatiotemporal forecasting model on NOAA Reynolds OI SST data, focused on the Indian Ocean Dipole and Northern Indian Ocean region — built for my department and presented as a conference poster.
 - Model evaluation via skill-score maps and Hovmöller diagrams for spatiotemporal validation
@@ -85,19 +80,6 @@ A **ConvLSTM2D**-based spatiotemporal forecasting model on NOAA Reynolds OI SST 
 An **Azure DevOps** marketplace extension for automated audit scoring with anomaly detection, built and shipped during my internship.
 - Fixed scoring-formula vulnerabilities and PDF export issues; resolved VS Code Marketplace publishing pipeline issues
 - `Azure DevOps Extensions` `Anomaly Detection`
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=MohamedYaseenK&show_icons=true&theme=default&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedYaseenK&layout=compact&hide_border=true" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MohamedYaseenK&hide_border=true" />
-</div>
 
 ---
 
