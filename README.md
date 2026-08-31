@@ -92,6 +92,7 @@ An **Azure DevOps** marketplace extension for automated audit scoring with anoma
 
 <div align="center">
 
-📫 Reach me on GitHub — <a href="https://github.com/MohamedYaseenK">@MohamedYaseenK</a>
+📫 Reach me on LinkedIn — <a href="https://www.linkedin.com/in/mohamedyaseenk/">@MohamedYaseenK</a>
+
 
 </div>
