@@ -11,7 +11,7 @@
 
 ### 👋 About Me
 
-I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, transitioning into **Data Science & Machine Learning**. Over the past year I've gone from structural analysis to building agentic AI systems, RAG pipelines, and deep learning models — end to end, from data to deployment.
+I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, transitioning into **Data Science & Machine Learning**. Over the past year I've gone from structural analysis to building agentic AI systems, RAG pipelines, and deep learning models end to end, from data to deployment.
 
 - 🎓 Final-year undergrad, NIT Trichy
 - 🔁 Self-taught pivot into Data Science / ML / GenAI
