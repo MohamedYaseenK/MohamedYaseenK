@@ -71,12 +71,12 @@ A real-time conversational voice agent running entirely on **CPU**, streaming au
 - Deliverable-focused: a working round-trip demo plus a stage-by-stage latency breakdown
 - `WebSockets` `VAD` `Speech-to-Text` `LLM` `Text-to-Speech`
 
-#### 🌊 Sea Surface Temperature Forecasting (Deep Learning)
+#### 🌊 [Sea Surface Temperature Forecasting (Deep Learning)](https://github.com/MohamedYaseenK/Analysis-and-Forecasting-of-monthly-Sea-Surface-Temperature-for-Indian-Ocean-Dipole-region.git)
 A **ConvLSTM2D**-based spatiotemporal forecasting model on NOAA Reynolds OI SST data, focused on the Indian Ocean Dipole and Northern Indian Ocean region — built for my department and presented as a conference poster.
 - Model evaluation via skill-score maps and Hovmöller diagrams for spatiotemporal validation
 - `TensorFlow/Keras` `ConvLSTM2D` `NOAA Reynolds OI SST` `Geospatial Visualization`
 
-#### 🔍 DevOps Audit Hub (BlueScope Internship)
+#### 🔍 [DevOps Audit Hub (BlueScope Internship)](https://github.com/MohamedYaseenK/Azure-DevOps-Extension-DevOps-Audit-Hub.git)
 An **Azure DevOps** marketplace extension for automated audit scoring with anomaly detection, built and shipped during my internship.
 - Fixed scoring-formula vulnerabilities and PDF export issues; resolved VS Code Marketplace publishing pipeline issues
 - `Azure DevOps Extensions` `Anomaly Detection`
