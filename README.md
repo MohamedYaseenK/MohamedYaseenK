@@ -53,21 +53,21 @@ I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, self-
 ## Projects
 
 ### 🕵️ [Agentic Fraud Detection System](https://github.com/MohamedYaseenK/agentic-fraud-detection)
-The one I'm proudest of. A tuned **XGBoost** classifier flags suspicious transactions on the PaySim dataset; a **LangChain ReAct agent** (Gemini-backed) then investigates each flag on its own — pulling user history, checking the account profile, and writing up a case report, in that order, without being told to at every step.
+The one I'm proudest of. A tuned **XGBoost** classifier flags suspicious transactions on the PaySim dataset; a **LangChain ReAct agent** (Gemini-backed) then investigates each flag on its own. pulling user history, checking the account profile, and writing up a case report, in that order, without being told to at every step.
 
-- Took recall from **0.18% to 81.4% at 90% precision** — a **450x** lift over the dataset's naive rule baseline
+- Took recall from **0.18% to 81.4% at 90% precision** (a **450x** lift) over the dataset's naive rule baseline
 - `dest_balance_untouched`, an engineered feature that catches mule-account patterns rules miss
 - Shipped end to end: **FastAPI** backend, **Streamlit** demo, **Dockerized**, live on **Streamlit Community Cloud**
 
 ### 📖 [IS 456 RAG Assistant](https://github.com/MohamedYaseenK/is456-rag-assistant)
-A retrieval-augmented QA system over **IS 456:2000**, India's concrete design code — 114 pages, OCR-scanned, full of the scanned tables and numeric lookups that make real-world RAG hard.
+A retrieval-augmented QA system over **IS 456:2000**, India's concrete design code. 114 pages, OCR-scanned, full of the scanned tables and numeric lookups that make real-world RAG hard.
 
 - Built a quantitative **RAGAS** evaluation harness across 20 categorized test questions, instead of eyeballing outputs
-- Found the actual weak spot: precision of 0.88, but context recall of only 0.29 on numeric/table lookups — and scoped a table-aware extraction fix for it
+- Found the actual weak spot: precision of 0.88, but context recall of only 0.29 on numeric/table lookups and scoped a table-aware extraction fix for it
 - Runs as a rate-limited Streamlit app with automatic multi-provider LLM fallback
 
 ### 🎙️ [CPU-Only Streaming Voice Agent](https://github.com/MohamedYaseenK/streaming-voice-agent)
-A full conversational voice pipeline — WebSocket audio in, turn-taking detection, STT, LLM, TTS, audio streamed back out — running entirely on **CPU**, no GPU shortcuts.
+A full conversational voice pipeline — WebSocket audio in, turn-taking detection, STT, LLM, TTS, audio streamed back out, running entirely on **CPU**, no GPU shortcuts.
 
 - Every stage instrumented and benchmarked: VAD, STT, LLM time-to-first-token, TTS, total round-trip
 - Built to answer one question precisely: where does the latency actually go?
@@ -76,7 +76,7 @@ A full conversational voice pipeline — WebSocket audio in, turn-taking detecti
 A **ConvLSTM2D** spatiotemporal forecasting model on NOAA Reynolds OI SST data, focused on the Indian Ocean Dipole and Northern Indian Ocean. Built for my department, evaluated with skill-score maps and Hovmöller diagrams, and presented as a conference poster.
 
 ### 🔍 [DevOps Audit Hub — BlueScope Internship](https://github.com/MohamedYaseenK/Azure-DevOps-Extension-DevOps-Audit-Hub.git)
-An **Azure DevOps** marketplace extension I built solo for developer productivity monitoring and anomaly detection — three layers: data retrieval (ADO REST + WIQL), identity normalization across sources, and rule-based anomaly detection behind a two-tier UI.
+An **Azure DevOps** marketplace extension I built solo for developer productivity monitoring and anomaly detection. three layers: data retrieval (ADO REST + WIQL), identity normalization across sources, and rule-based anomaly detection behind a two-tier UI.
 
 - Validated against live org data
 - Debugged real production issues along the way: WIQL rejecting datetime comparisons, CORS errors from hand-rolled requests, and a silent access-level data restriction that was quietly cutting off results
@@ -84,7 +84,7 @@ An **Azure DevOps** marketplace extension I built solo for developer productivit
 ### 🧪 [Bayesian A/B Test Analyzer *(in progress)*](https://github.com/MohamedYaseenK/Bayesian-AB-Tester-Analyzer.git)
 A small MVP for analyzing A/B tests the Bayesian way, instead of squinting at p-values. Built on the MeuTutor gamified peer-assessment dataset (Tenório et al. 2017, *Data in Brief*), specifically the control-vs-gamification arm of Experiment 2.
 
-- **FastAPI** backend, **Streamlit** dashboard, **Dockerized** — reusing the deployment pattern from the fraud detection project above
+- **FastAPI** backend, **Streamlit** dashboard, **Dockerized** reusing the deployment pattern from the fraud detection project above
 
 ---
 
