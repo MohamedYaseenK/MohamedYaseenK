@@ -1,27 +1,29 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2EA8F5&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Yaseen+%F0%9F%91%8B;Final-Year+Civil+Engineer+%40+NIT+Trichy;Building+in+Data+Science+%26+Applied+ML;Agentic+Systems+%C2%B7+RAG+%C2%B7+Deep+Learning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2EA8F5&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Yaseen+%F0%9F%91%8B;Civil+Engineer+by+degree%2C+ML+builder+by+choice;Agentic+Systems+%C2%B7+RAG+%C2%B7+Deep+Learning" alt="Typing SVG" />
 
 [![GitHub followers](https://img.shields.io/github/followers/MohamedYaseenK?label=Follow&style=social)](https://github.com/MohamedYaseenK)
 ![Profile Views](https://komarev.com/ghpvc/?username=MohamedYaseenK&color=2EA8F5&style=flat)
 
 </div>
 
+<br>
+
+## About
+
+Two years ago I was studying moment distribution and reinforced concrete design. Today I build agentic AI systems that investigate financial fraud and RAG pipelines that parse dense, OCR-scanned engineering codes — the pivot was steeper than I expected, but the instinct for breaking a hard problem into a structured one carried over.
+
+I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, self-taught in Data Science and ML, and I use a **BlueScope** internship as proof I can ship things that run in production, not just notebooks that run once.
+
+- 🎓 Final-year undergrad, NIT Trichy — self-taught pivot into Data Science / ML / GenAI
+- 🏭 BlueScope internship — built and shipped an Azure DevOps extension for anomaly detection, validated against live org data (110 contributors, 966 commits in a month)
+- 🎯 Building a focused portfolio around **agentic AI, RAG, and applied ML**, aimed at Data Science / Analytics / Product-Fintech roles
+- ⚡ Wrote my first program in 11th standard — a maze game in Scratch
+- 🏆 Once walked into an unplanned structural engineering quiz at CSIR-SERC's diamond jubilee and won it, against seniors
+
 ---
 
-### 👋 About Me
-
-I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, transitioning into **Data Science & Machine Learning**. Over the past year I've gone from structural analysis to building agentic AI systems, RAG pipelines, and deep learning models end to end, from data to deployment.
-
-- 🎓 Final-year undergrad, NIT Trichy
-- 🔁 Self-taught pivot into Data Science / ML / GenAI
-- 🏭 Completed an internship at **BlueScope** (built an anomaly-detection Azure DevOps extension)
-- 🎯 Currently building a portfolio around **agentic AI, RAG, and applied ML** for data science / analytics / product-fintech roles
-- ⚡ Started coding in 11th standard — first project was a maze game in Scratch
-
----
-
-### 🛠️ Tech Stack
+## Stack
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -48,51 +50,49 @@ I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, trans
 
 ---
 
-### 🚀 Featured AI/ML Projects
+## Projects
 
-#### 🕵️ [Agentic Fraud Detection System](https://github.com/MohamedYaseenK/agentic-fraud-detection)
-An end-to-end fraud detection system on the PaySim dataset, combining a tuned **XGBoost** classifier with a **LangChain ReAct agent** (Gemini-backed) that investigates flagged transactions using three tools — user history, user profile, and automated case-report generation.
-- Improved recall from **0.18% → 81.4% at 90% precision** — a **450x** lift over the dataset's naive rule baseline
-- Engineered features including `dest_balance_untouched` to catch mule-account patterns
-- Served via **FastAPI**, demoed on **Streamlit**, containerized with **Docker**, deployed on **Streamlit Community Cloud**
-- `XGBoost` `LangChain` `Gemini` `FastAPI` `Streamlit` `Docker`
+### 🕵️ [Agentic Fraud Detection System](https://github.com/MohamedYaseenK/agentic-fraud-detection)
+The one I'm proudest of. A tuned **XGBoost** classifier flags suspicious transactions on the PaySim dataset; a **LangChain ReAct agent** (Gemini-backed) then investigates each flag on its own — pulling user history, checking the account profile, and writing up a case report, in that order, without being told to at every step.
 
-#### 📖 [IS 456 RAG Assistant](https://github.com/MohamedYaseenK/is456-rag-assistant)
-A retrieval-augmented QA system over **IS 456:2000**, India's 114-page OCR-scanned concrete design code — a genuinely messy real-world document (scanned tables, numeric lookups, inconsistent OCR).
-- Built a quantitative **RAGAS** evaluation harness across 20 categorized test questions
-- Diagnosed a context-recall gap (0.29) vs. high precision (0.88) on numeric/table lookups, and scoped a table-aware extraction fix
-- Deployed as a rate-limited Streamlit app with automatic multi-provider LLM fallback for reliability
-- `LangChain` `ChromaDB` `Sentence-Transformers` `Groq` `Gemini` `RAGAS`
+- Took recall from **0.18% to 81.4% at 90% precision** — a **450x** lift over the dataset's naive rule baseline
+- `dest_balance_untouched`, an engineered feature that catches mule-account patterns rules miss
+- Shipped end to end: **FastAPI** backend, **Streamlit** demo, **Dockerized**, live on **Streamlit Community Cloud**
 
-#### 🎙️ [CPU-Only Streaming Voice Agent](https://github.com/MohamedYaseenK/streaming-voice-agent)
-A real-time conversational voice agent running entirely on **CPU**, streaming audio over WebSockets through the full pipeline: turn-taking/VAD → STT → LLM → TTS → audio back to the client.
-- Every pipeline stage instrumented and benchmarked — VAD, STT, LLM time-to-first-token, TTS, and total round-trip latency
-- Deliverable-focused: a working round-trip demo plus a stage-by-stage latency breakdown
-- `WebSockets` `VAD` `Speech-to-Text` `LLM` `Text-to-Speech`
+### 📖 [IS 456 RAG Assistant](https://github.com/MohamedYaseenK/is456-rag-assistant)
+A retrieval-augmented QA system over **IS 456:2000**, India's concrete design code — 114 pages, OCR-scanned, full of the scanned tables and numeric lookups that make real-world RAG hard.
 
-#### 🌊 [Sea Surface Temperature Forecasting (Deep Learning)](https://github.com/MohamedYaseenK/Analysis-and-Forecasting-of-monthly-Sea-Surface-Temperature-for-Indian-Ocean-Dipole-region.git)
-A **ConvLSTM2D**-based spatiotemporal forecasting model on NOAA Reynolds OI SST data, focused on the Indian Ocean Dipole and Northern Indian Ocean region — built for my department and presented as a conference poster.
-- Model evaluation via skill-score maps and Hovmöller diagrams for spatiotemporal validation
-- `TensorFlow/Keras` `ConvLSTM2D` `NOAA Reynolds OI SST` `Geospatial Visualization`
+- Built a quantitative **RAGAS** evaluation harness across 20 categorized test questions, instead of eyeballing outputs
+- Found the actual weak spot: precision of 0.88, but context recall of only 0.29 on numeric/table lookups — and scoped a table-aware extraction fix for it
+- Runs as a rate-limited Streamlit app with automatic multi-provider LLM fallback
 
-#### 🔍 [DevOps Audit Hub (BlueScope Internship)](https://github.com/MohamedYaseenK/Azure-DevOps-Extension-DevOps-Audit-Hub.git)
-An **Azure DevOps** marketplace extension for automated audit scoring with anomaly detection, built and shipped during my internship.
-- Fixed scoring-formula vulnerabilities and PDF export issues; resolved VS Code Marketplace publishing pipeline issues
-- `Azure DevOps Extensions` `Anomaly Detection`
+### 🎙️ [CPU-Only Streaming Voice Agent](https://github.com/MohamedYaseenK/streaming-voice-agent)
+A full conversational voice pipeline — WebSocket audio in, turn-taking detection, STT, LLM, TTS, audio streamed back out — running entirely on **CPU**, no GPU shortcuts.
+
+- Every stage instrumented and benchmarked: VAD, STT, LLM time-to-first-token, TTS, total round-trip
+- Built to answer one question precisely: where does the latency actually go?
+
+### 🌊 [Sea Surface Temperature Forecasting](https://github.com/MohamedYaseenK/Analysis-and-Forecasting-of-monthly-Sea-Surface-Temperature-for-Indian-Ocean-Dipole-region.git)
+A **ConvLSTM2D** spatiotemporal forecasting model on NOAA Reynolds OI SST data, focused on the Indian Ocean Dipole and Northern Indian Ocean. Built for my department, evaluated with skill-score maps and Hovmöller diagrams, and presented as a conference poster.
+
+### 🔍 [DevOps Audit Hub — BlueScope Internship](https://github.com/MohamedYaseenK/Azure-DevOps-Extension-DevOps-Audit-Hub.git)
+An **Azure DevOps** marketplace extension I built solo for developer productivity monitoring and anomaly detection — three layers: data retrieval (ADO REST + WIQL), identity normalization across sources, and rule-based anomaly detection behind a two-tier UI.
+
+- Validated against live org data
+- Debugged real production issues along the way: WIQL rejecting datetime comparisons, CORS errors from hand-rolled requests, and a silent access-level data restriction that was quietly cutting off results
 
 ---
 
-### 🎯 Currently
+## Right now
 
 - Sharpening SQL and ML fundamentals for data science interviews
-- Preparing structured technical walkthroughs for the fraud-detection and RAG projects above
+- Building out structured technical walkthroughs for the fraud-detection and RAG projects above
 - Open to **Data Science / ML / Analytics** roles
 
 ---
 
 <div align="center">
 
-📫 Reach me on LinkedIn — <a href="https://www.linkedin.com/in/mohamedyaseenk/">@MohamedYaseenK</a>
-
+📫 **[Connect on LinkedIn →](https://www.linkedin.com/in/mohamedyaseenk/)**
 
 </div>
