@@ -81,6 +81,11 @@ An **Azure DevOps** marketplace extension I built solo for developer productivit
 - Validated against live org data
 - Debugged real production issues along the way: WIQL rejecting datetime comparisons, CORS errors from hand-rolled requests, and a silent access-level data restriction that was quietly cutting off results
 
+### 🧪 Bayesian A/B Test Analyzer *(in progress)*
+A small MVP for analyzing A/B tests the Bayesian way, instead of squinting at p-values. Built on the MeuTutor gamified peer-assessment dataset (Tenório et al. 2017, *Data in Brief*), specifically the control-vs-gamification arm of Experiment 2.
+
+- **FastAPI** backend, **Streamlit** dashboard, **Dockerized** — reusing the deployment pattern from the fraud detection project above
+
 ---
 
 ## Right now
