@@ -11,15 +11,15 @@
 
 ## About
 
-Two years ago I was studying moment distribution and reinforced concrete design. Today I build agentic AI systems that investigate financial fraud and RAG pipelines that parse dense, OCR-scanned engineering codes — the pivot was steeper than I expected, but the instinct for breaking a hard problem into a structured one carried over.
+Two years ago I was studying moment distribution and reinforced concrete design. Today I build agentic AI systems that investigate financial fraud and RAG pipelines that parse dense, OCR-scanned engineering codes, the pivot was steeper than I expected, but the instinct for breaking a hard problem into a structured one carried over.
 
 I'm a final-year **Civil Engineering** student at **NIT Tiruchirappalli**, self-taught in Data Science and ML, and I use a **BlueScope** internship as proof I can ship things that run in production, not just notebooks that run once.
 
-- 🎓 Final-year undergrad, NIT Trichy — self-taught pivot into Data Science / ML / GenAI
-- 🏭 BlueScope internship — built and shipped an Azure DevOps extension for anomaly detection, validated against live org data (110 contributors, 966 commits in a month)
+- 🎓 Final-year undergrad, NIT Trichy. self-taught pivot into Data Science / ML / GenAI
+- 🏭 BlueScope internship: built and shipped an Azure DevOps extension for anomaly detection, validated against live org data (110 contributors, 966 commits in a month)
 - 🎯 Building a focused portfolio around **agentic AI, RAG, and applied ML**, aimed at Data Science / Analytics / Product-Fintech roles
-- ⚡ Wrote my first program in 11th standard — a maze game in Scratch
-- 🏆 Once walked into an unplanned structural engineering quiz at CSIR-SERC's diamond jubilee and won it, against seniors
+- ⚡ Wrote my first program in 7th standard, a maze game in Scratch
+  
 
 ---
 
